@@ -1,0 +1,15 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "zxg",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ webrtc --out ./outApp --electron-version 13.6.1 --overwrite"
+  },
+  "dependencies": {
+    "portfinder": "^1.0.28",
+    "uuid": "^8.3.2",
+    "ws": "^8.2.3"
+  }
+}
